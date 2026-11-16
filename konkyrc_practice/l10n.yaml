@@ -1,0 +1,8 @@
+#  расположение файлов с перерводами
+arb-dir: lib/core/localization/l10n
+
+# при первом старте язык приложения - eng
+template-arb-file: app_en.arb
+
+# генерирует один большой файл через который будем получать перевод
+output-localization-file: app_localizations.dart

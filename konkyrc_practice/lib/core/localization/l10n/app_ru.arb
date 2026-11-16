@@ -1,0 +1,11 @@
+{
+  "hello": "Привет!",
+  "fill_data": "Заполните Свои Данные Или Продолжите Через Социальные Медиа",
+  "email": "Email",
+  "email_hint": "xyz@gmail.com",
+  "password": "Пароль",
+  "recover": "Восстановить",
+  "sign_in_btn": "Войти",
+  "first_time": "Вы впервые?",
+  "create_user": "Создать пользователя"
+}

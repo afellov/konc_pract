@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:konkyrc_practice/core/localization/l10n/app_localizations.dart';
+import 'package:konkyrc_practice/core/localization/l10n/app_localizations_en.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,6 +13,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      // будет работать со своими переводами (localDelegates)
+      localizationsDelegates: AppLocalizations.localizationsDelegates,
+      // список возможных перерводов
+      supportedLocales: AppLocalizations.supportedLocales,
+
       title: 'Flutter Demo',
       theme: ThemeData(
 

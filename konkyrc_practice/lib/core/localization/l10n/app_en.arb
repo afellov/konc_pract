@@ -1,0 +1,11 @@
+{
+  "hello": "Hello!",
+  "fill_data": "Fill in your data or continue via Social Media",
+  "email": "Email",
+  "email_hint": "xyz@gmail.com",
+  "password": "Password",
+  "recover": "Recover",
+  "sign_in_btn": "Sign In",
+  "first_time": "Is this your first time?",
+  "create_user": "Create user"
+}

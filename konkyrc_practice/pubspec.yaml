@@ -24,6 +24,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  
+  # чтоб переводились встроенные виджеты автоматически
+  flutter_localizations: 
+    sdk: flutter
+
+  #  Пакет для форматирования слов
+  intl: any
+
 
   # подключаем ui_kit к проекту
   ui_kit:
@@ -42,6 +50,9 @@ flutter:
 
 
   uses-material-design: true
+  
+  # приложение теперь смотрит на файлы переводов, dart теперь сам все переводит
+  generate: true
 
   # To add assets to your application, add an assets section, like this:
   # assets:
