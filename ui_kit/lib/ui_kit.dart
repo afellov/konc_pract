@@ -1,5 +1,12 @@
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+// библиотека ui-компонентов для приложения matule
+
+// производим экспорт
+
+// цвета 
+export 'src/colors/app_colors.dart';
+
+// шрифтов
+export 'src/fonts/app_fonts.dart';
+
+// иконок
+
