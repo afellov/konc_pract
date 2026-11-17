@@ -35,4 +35,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get create_user => 'Create user';
+
+  @override
+  String get title_error => 'something went wrong';
 }

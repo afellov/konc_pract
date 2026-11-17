@@ -36,4 +36,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get create_user => 'Создать пользователя';
+
+  @override
+  String get title_error => 'что то пошло не так';
 }

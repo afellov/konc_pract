@@ -151,6 +151,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Create user'**
   String get create_user;
+
+  /// No description provided for @title_error.
+  ///
+  /// In en, this message translates to:
+  /// **'something went wrong'**
+  String get title_error;
 }
 
 class _AppLocalizationsDelegate

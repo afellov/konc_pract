@@ -7,5 +7,6 @@
   "recover": "Recover",
   "sign_in_btn": "Sign In",
   "first_time": "Is this your first time?",
-  "create_user": "Create user"
+  "create_user": "Create user",
+  "title_error": "something went wrong"
 }

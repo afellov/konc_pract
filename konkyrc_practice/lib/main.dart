@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:konkyrc_practice/core/localization/l10n/app_localizations.dart';
+import 'package:konkyrc_practice/features/auth/presentation/bloc/auth_bloc.dart';
 import 'package:konkyrc_practice/features/auth/presentation/sign_in_page.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    BlocProvider(create: (context) => AuthBloc(), child: const MyApp()),
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -19,10 +23,7 @@ class MyApp extends StatelessWidget {
       supportedLocales: AppLocalizations.supportedLocales,
 
       title: 'Flutter Demo',
-      theme: ThemeData(
-
-        colorScheme: .fromSeed(seedColor: Colors.deepPurple),
-      ),
+      theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
       home: const SignInPage(),
     );
   }
