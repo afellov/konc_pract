@@ -5,8 +5,12 @@
 // цвета 
 export 'src/colors/app_colors.dart';
 
-// шрифтов
-export 'src/fonts/app_fonts.dart';
+// стили шрифтов
+export 'src/text_styles/app_textStyles.dart';
 
 // иконок
+
+// компонентов
+export 'src/components/app_text_field.dart';
+
 

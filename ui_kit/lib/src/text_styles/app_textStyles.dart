@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:ui_kit/ui_kit.dart';
 
 /// класс шрифтов всего приложения
-class AppFonts {
-  AppFonts._();
+class AppTextStyles {
+  AppTextStyles._();
 
   /// шрифт по умолчанию для всего приложения
   static const _fontFamily = 'Poppins';
